@@ -1,8 +1,10 @@
 const mongoose = require("mongoose");
 
-const conexao = () => {
+const conexao = (url, user, pass, data) => {
   mongoose
-    .connect("mongodb://localhost:27017/Tarefas", {
+    .connect(`${url}/${data}`, {
+      user: user,
+      pass: pass,
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
