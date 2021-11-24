@@ -5,8 +5,10 @@ const Service = new TarefaS();
 class Controller {
   getTarefas = async (req, res) => {
     const tarefas = await Service.findAll();
-    res
-      .status(200)
+     if (!tarefas) {
+      res.status(500).send({ Error: "Erro no servidor" });
+    }
+    res.status(200)
       .send(tarefas)
       .catch((err) => {
         console.log(err);
