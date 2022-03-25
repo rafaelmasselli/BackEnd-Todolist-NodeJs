@@ -17,7 +17,6 @@
 Para iniciar o projeto em máquina você vai precisar ter o <a href="https://nodejs.org/pt-br/download/">Node JS</a> e o <a href="https://www.mongodb.com/try/download/community">MongoDBCompass</a> instalados e para starta o projeto você vai precisar de uma <a href="https://code.visualstudio.com/download">IDE</a>
 
 ## Iniciando o projeto
-### Acesso ou banco com .env.exemple
 
 ### 🎲 Rodando o Back-end
 
@@ -35,6 +34,10 @@ $ npm install
 $ npm run start dev
 
 ```
+
+### Acesso ao banco
+
+#### Crie um arquivo chamado ".env" e use os exemplos do .env.exemple  
 
 ## Depedências instaladas
 
