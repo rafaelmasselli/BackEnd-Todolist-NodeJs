@@ -7,7 +7,7 @@ const cors = require("cors");
 const banco = require("./conexao/conect");
 const rota = require("./routes/index.routes");
 
-const port = 3000;
+const port = 3001;
 
 const app = express();
 
