@@ -4,7 +4,7 @@ if (process.env.NODE_END !== "production") {
 
 const express = require("express");
 const cors = require("cors");
-const banco = require("./conexao/conect");
+const banco = require("./connection/connect");
 const rota = require("./routes/index.routes");
 
 const port = 3001;
@@ -14,7 +14,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-//variaveis de ambiente
 const db_url = process.env.DB_URL;
 const db_user = process.env.DB_USER;
 const db_pass = process.env.DB_PASS;

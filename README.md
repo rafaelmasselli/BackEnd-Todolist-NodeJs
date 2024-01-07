@@ -1,7 +1,5 @@
-
-
 <p align="center">
-  <img  src="./Gif-Readme/ReadmeLogo.png"/>
+  <img  src="./.github/ReadmeLogo.png"/>
 </p>
 
 <h1  align="center"> Node js todolist Back-end 👾</h1>
@@ -43,29 +41,18 @@ $ npm run start dev
 
 ### Acesso ao banco
 
-#### Crie um arquivo chamado ".env" e use os exemplos do .env.exemple  
+#### Crie um arquivo chamado ".env" e use os exemplos do .env.exemple
 
 ## Depedências instaladas
 
-<ul>
-    <lI> 
-    Moongose
-    </li>
-    <lI> 
-    Express
-    </li>
-    <lI> 
-    Dontev
-    </li>
-    <lI> 
-    Cors
-    </li>
-</ul>
+- Moongose
+
+- Express
+
+- Dontev
+
+- Cors
 
 ## Depedências de desenvolvedor
 
-<ul>
-  <li>
-    Nodemon
-  </li>
-</ul>
+- Nodemon
